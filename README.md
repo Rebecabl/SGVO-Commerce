@@ -1,24 +1,24 @@
-# Projeto de E-Commerce com SQL Server
+# E-Commerce Project with SQL Server
 
-Este projeto é uma simulação de um sistema de E-Commerce, implementado no Microsoft SQL Server, utilizando o SQL Server Management Studio (SSMS). Ele inclui a criação de tabelas para clientes, produtos, pedidos, itens de pedidos, categorias e pagamentos. O objetivo é fornecer uma estrutura básica para um sistema de comércio eletrônico, permitindo consultas e análises simples sobre clientes, vendas e produtos.
+This project is a simulation of an E-Commerce system implemented on Microsoft SQL Server using SQL Server Management Studio (SSMS). It includes the creation of tables for customers, products, orders, order items, categories, and payments. The goal is to provide a basic structure for an e-commerce system, enabling simple queries and analyses on customers, sales, and products.
 
-## Funcionalidades Principais
+## Key Features
 
-| Funcionalidade       | Descrição                                                                                    |
+| Feature              | Description                                                                                  |
 |----------------------|----------------------------------------------------------------------------------------------|
-| **Clientes**         | Cadastro de clientes com informações como nome e e-mail.                                   |
-| **Produtos**         | Registro de produtos contendo nome, preço e categoria.                                      |
-| **Pedidos**          | Geração de pedidos associados a clientes, com informações de data.                           |
-| **Itens de Pedidos** | Relacionamento entre pedidos e produtos, indicando quantidade e preço unitário.               |
-| **Categorias**       | Classificação dos produtos em categorias.                                                    |
-| **Pagamentos**       | Registro de pagamentos associados a pedidos, incluindo valor, método de pagamento e data.     |
+| **Customers**        | Customer registration with information such as name and email.                                |
+| **Products**         | Product registration containing name, price, and category.                                    |
+| **Orders**           | Generation of orders associated with customers, including date information.                  |
+| **Order Items**      | Relationship between orders and products, indicating quantity and unit price.                |
+| **Categories**       | Classification of products into categories.                                                  |
+| **Payments**         | Recording of payments associated with orders, including amount, payment method, and date.    |
 
-## Consultas Exemplificadas
+## Exemplified Queries
 
-O projeto inclui consultas SQL exemplificadas que demonstram como extrair informações úteis, como os produtos mais vendidos, clientes que mais compraram e a média de gastos por cliente.
+The project includes exemplified SQL queries demonstrating how to extract useful information, such as the best-selling products, customers who make the most purchases, and the average spending per customer.
 
-## Uso de COLLATION no SQL Server
+## Use of COLLATION in SQL Server
 
-As consultas e ordenações neste projeto utilizam COLLATION para lidar com questões de sensibilidade a maiúsculas/minúsculas e acentuação, garantindo a correta ordenação e comparação de dados.
+Queries and sorting in this project use COLLATION to handle case sensitivity and accentuation issues, ensuring correct data sorting and comparison.
 
-Este projeto é uma ferramenta útil para entender conceitos básicos de modelagem de dados para comércio eletrônico, específicos para o ambiente do SQL Server. Pode ser estendido e adaptado para necessidades específicas neste ambiente.
+This project serves as a useful tool for understanding basic data modeling concepts for e-commerce, specifically tailored for the SQL Server environment. It can be extended and adapted to specific needs within this environment.
