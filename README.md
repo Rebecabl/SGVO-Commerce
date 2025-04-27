@@ -1,3 +1,4 @@
+
 # E-Commerce Project with SQL Server
 
 This project is a simulation of an E-Commerce system implemented on Microsoft SQL Server using SQL Server Management Studio (SSMS). It includes the creation of tables for customers, products, orders, order items, categories, and payments. The goal is to provide a basic structure for an e-commerce system, enabling simple queries and analyses on customers, sales, and products.
